@@ -242,3 +242,46 @@ footer {
     justify-content: center;
   }
 }
+/* --- Night / Light Mode Styling --- */
+body.light-mode {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #0284c7;
+}
+
+body.light-mode header {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--border);
+}
+
+body.light-mode .card p {
+  color: #334155;
+}
+
+body.light-mode footer {
+  background-color: rgba(241, 245, 249, 0.8);
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 1.1rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--primary);
+  transform: scale(1.05);
+}
