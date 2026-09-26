@@ -285,3 +285,15 @@ body.light-mode footer {
   border-color: var(--primary);
   transform: scale(1.05);
 }
+/* --- Institution Logos in Education Cards --- */
+.institution-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.85rem;
+  display: block;
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
