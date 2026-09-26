@@ -376,3 +376,12 @@ body.light-mode footer {
     align-items: flex-start;
   }
 }
+/* Nav Brand Profile Avatar */
+.brand-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  display: block;
+}
